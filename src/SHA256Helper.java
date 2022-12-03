@@ -15,6 +15,11 @@ public class SHA256Helper {
             for (int i = 0; i < hash.length; i++) {
                 String hexadecimal = Integer.toHexString(0xff & hash[i]);
 
+                // Padding 64 char
+                if (hexadecimal.length() == 1) {
+                    hexadecimalString.append('0');
+                }
+
                 hexadecimalString.append(hexadecimal);
             }
 
