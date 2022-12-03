@@ -9,6 +9,6 @@ public class Constants {
     // This is the reward in the underlying Cryptocurrency
     public static final int REWARD = 10;
 
-    // Fist Block (Genesis block)
+    // First Block (Genesis block)
     public static final String GENESIS_PREV_HASH = "0000000000000000000000000000000000000000000000000000000000000000";
 }
