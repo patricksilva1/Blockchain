@@ -10,7 +10,7 @@ public class SHA256Helper {
             byte[] hash = digest.digest(data.getBytes("UTF-8"));
 
             // Convert Byte to Hexa
-            StringBuffer hexadecimalString = new StringBuffer();
+            StringBuilder hexadecimalString = new StringBuilder();
 
             for (int i = 0; i < hash.length; i++) {
                 String hexadecimal = Integer.toHexString(0xff & hash[i]);
