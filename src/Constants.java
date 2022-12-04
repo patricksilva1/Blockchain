@@ -4,7 +4,7 @@ public class Constants {
     }
 
     // Difficulty of leading zeros
-    public static final int DIFFICULTY = 1;
+    public static final int DIFFICULTY = 6;
 
     // This is the reward in the underlying Cryptocurrency
     public static final int REWARD = 10;
